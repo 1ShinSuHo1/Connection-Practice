@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>나의 포트폴리오</title>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+KR&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Noto Sans KR"', 'sans-serif'],
+            heading: ['"Anton"', 'sans-serif'],
+          },
+          colors: {
+            primary: '#1E40AF',
+            secondary: '#F59E0B',
+          },
+        }
+      }
+    }
+  </script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+</head>
+
+<body class="font-sans">
+  <header>
+    <nav class="flex items-center justify-between p-4 bg-gray-800 text-white">
+      <img src="images/KakaoTalk_Photo_2025-07-14-10-35-16.jpeg" alt="로고" class="w-24 h-auto" />
+      <ul class="flex gap-4">
+        <li><a href="index.html" class="hover:text-blue-400">Home</a></li>
+        <li><a href="portfolio.html" class="hover:text-blue-400">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="p-8">
+    <section>
+      <h2 class="text-3xl font-heading text-primary mb-6">참여 프로젝트</h2>
+
+      <article class="mb-6 p-4 border border-gray-300 rounded shadow">
+        <h3 class="text-xl font-semibold text-secondary mb-2">라즈베리파이를 이용한 스마트 홈케어 시스템</h3>
+        <p>저는 앱에서 프론트 역할을 맡았고 중심 로직을 만드는 역할을 수행했습니다</p>
+      </article>
+
+      <article class="mb-6 p-4 border border-gray-300 rounded shadow">
+        <h3 class="text-xl font-semibold text-secondary mb-2">ACHRO-EM키트를 활용한 리듬게임만들기</h3>
+        <p>게임의 로직과 데이터베이스와의 연동을 구현하였습니다</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="bg-gray-900 text-white text-center p-4">
+    <p>이메일: sshsh1004@naver.com</p>
+    <small>© 2025 나의 포트폴리오</small>
+  </footer>
+</body>
+</html>
