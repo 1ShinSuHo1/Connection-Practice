@@ -2,3 +2,9 @@
   background-color: lightcoral;
   padding: 10px;
 }
+.box-model {
+  border: 2px solid #333;
+  padding: 20px;
+  margin: 30px;
+  background-color: #fef3c7;
+}
