@@ -5,56 +5,63 @@
   <title>나의 소개 페이지</title>
 </head>
 <body>
-  <h1>안녕하세요, 저는 신수호입니다!</h1>
-  <p>저는 소프트웨어 개발자가 되기 위해 공부하고 있는 대학생입니다.</p>
 
-  <h2>제 사진</h2>
-  <img src="images/KakaoTalk_Photo_2025-07-14-10-35-16.jpeg" alt="내 사진" width="200">
+  <header>
+    <h1>안녕하세요, 저는 신수호입니다!</h1>
+    <p>저는 소프트웨어 개발자가 되기 위해 공부하고 있는 대학생입니다.</p>
+  </header>
 
-  <h2>관련 링크</h2>
-  <p>저의 GitHub 주소는 아래와 같습니다:</p>
-  <a href="https://github.com/1ShinSuHo1" target="_blank">GitHub 프로필 보기</a>
+  <main>
+    <section>
+      <h2>제 사진</h2>
+      <img src="images/KakaoTalk_Photo_2025-07-14-10-35-16.jpeg" alt="내 사진" width="200">
+    </section>
 
-  <h2>좋아하는 음식</h2>
-  <ul>
-    <li>짬뽕</li>
-    <li>국밥</li>
-  </ul>
+    <section>
+      <h2>관련 링크</h2>
+      <p>저의 GitHub 주소는 아래와 같습니다:</p>
+      <a href="https://github.com/1ShinSuHo1" target="_blank">GitHub 프로필 보기</a>
+    </section>
 
-  <h2>나의 시간표</h2>
-<table border="1">
-  <tr>
-    <th>시간</th>
-    <th>월</th>
-    <th>화</th>
-    <th>수</th>
-    <th>목</th>
-    <th>금</th>
-  </tr>
-  <tr>
-    <td>09:00 ~ 18:00</td>
-    <td colspan="5">구름 딥다이브</td>
-  </tr>
-  <tr>
-    <td>18:00 ~ 19:00</td>
-    <td colspan="5">저녁 식사</td>
-  </tr>
-  <tr>
-    <td>19:00 ~ 21:00</td>
-    <td colspan="5">운동</td>
-  </tr>
-  <tr>
-    <td>21:00 ~ 00:00</td>
-    <td colspan="5">자기 개발</td>
-  </tr>
-</table>
-<h2>저에게 궁금한 점이 있나요?</h2>
-<div>
-  <label for="question">궁금한 점:</label><br />
-  <input type="text" id="question" placeholder="무엇이 궁금한가요?" /><br /><br />
-  <button>보내기</button>
-</div>
+    <section>
+      <h2>좋아하는 음식</h2>
+      <ul>
+        <li>짬뽕</li>
+        <li>국밥</li>
+      </ul>
+    </section>
 
+    <section>
+      <h2>나의 시간표</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>요일</th>
+            <th>일정</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>월~금</td>
+            <td>09:00~18:00 구름 딥다이브<br>18:00~19:00 저녁<br>19:00~21:00 운동<br>21:00~24:00 자기개발 및 취침</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>저에게 궁금한 점이 있나요?</h2>
+      <div>
+        <label for="question">궁금한 점:</label><br />
+        <input type="text" id="question" placeholder="무엇이 궁금한가요?" /><br /><br />
+        <button>보내기</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 신수호의 자기소개 페이지</p>
+  </footer>
 
 </body>
 </html>
